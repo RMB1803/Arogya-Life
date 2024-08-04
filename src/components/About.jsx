@@ -11,8 +11,7 @@ function About() {
       <h1 className="font-outfit text-[4.2vw] text-zinc-900 leading-[4.5vw] tracking-tight w-[90%]">
         We propose to centralize medical data, allowing doctors,
         diagnostic labs, research centers, hospitals, etc., to upload
-        information. This initiative aims to address the challenges
-        mentioned earlier.
+        information.
       </h1>
       <div className="w-full mt-[4vw] border-t-[1px] border-[#738146] flex pt-[4vw] ">
         <div className="w-1/2 h-[70vh]">
