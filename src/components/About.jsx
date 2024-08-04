@@ -9,9 +9,10 @@ function About() {
       className="w-full p-[5vw] bg-[#CDEA68] rounded-tl-xl rounded-tr-xl mb-20"
     >
       <h1 className="font-outfit text-[4.2vw] text-zinc-900 leading-[4.5vw] tracking-tight w-[90%]">
-        Ochi is a strategic partner for fast-growing tech businesses that need
-        to raise funds, sell products, explain complex ideas, and hire great
-        people.
+        We propose to centralize medical data, allowing doctors,
+        diagnostic labs, research centers, hospitals, etc., to upload
+        information. This initiative aims to address the challenges
+        mentioned earlier.
       </h1>
       <div className="w-full mt-[4vw] border-t-[1px] border-[#738146] flex pt-[4vw] ">
         <div className="w-1/2 h-[70vh]">
