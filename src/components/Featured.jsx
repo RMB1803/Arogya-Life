@@ -38,13 +38,29 @@ const Featured = () => {
             <motion.div
               whileHover={{ scale: 0.9 }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.7 }}
-              className="card w-full h-full rounded-lg bg-green-400  overflow-hidden"
+              className="card w-full h-full rounded-lg bg-gradient-to-r from-green-500 to to-green-900  overflow-hidden"
             >
-              <img
-                src="https://imgs.search.brave.com/pLx3hJtihgs5psaLos6mlxKbCTT0WqmejoBPTTz5E8g/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzQyLzAwLzc5/LzM2MF9GXzQyMDA3/OTkwX1RhRWxKTHVM/V0VtNHlBRFY0SGJ5/Q2pGbmtnRHNpblQx/LmpwZw"
-                alt="card1"
-                className="w-full h-full object-cover"
-              />
+              
+              <div className="relative w-400 p-4 overflow-hidden bg-yellow-300 shadow-lg rounded-md shadow-2xl">
+                   <div className="w-4/6">
+                      <p className="mb-2 text-lg font-medium text-3xl text-zinc-800">
+                          Free Membership
+                      </p>
+                      <p className="text-xs text-zinc-700 text-xl">
+                          Access to Patient's Medical History
+                      </p>
+                      <p className="text-xs text-zinc-700 text-xl">
+                          Access to Upload Medical Records
+                      </p>
+                      <p className="text-xs text-zinc-700 text-xl">
+                          24 x 7 Customer Care Support
+                      </p>
+                      <p className="text-2xl font-medium text-zinc-600 mt-8">
+                          $0
+                      </p>
+                  </div>
+              </div>
+
             </motion.div>
           </div>
           <div
@@ -72,13 +88,31 @@ const Featured = () => {
             <motion.div
               whileHover={{ scale: 0.9 }}
               transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.7 }}
-              className="card card w-full h-full rounded-lg bg-green-400  overflow-hidden"
+              className="card card w-full h-full rounded-lg bg-gradient-to-r from-green-700 to-green-900  overflow-hidden"
             >
-              <img
-                src="https://github.com/Prem-Mule/OchiDesign-Showcase-app/blob/629241ed2b80145fa26d2242a3bf25acdbea7db0/src/assets/images/card2.jpg?raw=true"
-                alt="card1"
-                className="w-full h-full object-cover"
-              />
+              
+              <div className="relative w-400 p-4 overflow-hidden bg-yellow-300 shadow-lg rounded-md shadow-2xl">
+                   <div className="w-4/6">
+                      <p className="mb-2 text-lg font-medium text-3xl text-zinc-800">
+                          Premium Membership
+                      </p>
+                      <p className="text-xs text-zinc-700 text-xl">
+                          Monthly Data Analytics 
+                      </p>
+                      <p className="text-xs text-zinc-700 text-xl">
+                         Advanced configuration controls
+                      </p>
+                      <p className="text-xs text-zinc-700 text-xl">
+                        Multi-region , Multi-cloud options 
+                      </p>
+                      <p className="text-xs text-zinc-700 text-xl">
+                          All features of Free Plan
+                      </p>
+                      <p className="text-2xl font-medium text-zinc-600 mt-5">
+                          $29
+                      </p>
+                  </div>
+              </div>
             </motion.div>
           </div>
         </div>
